@@ -1,0 +1,709 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "color code",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": [
+            "what did i guess last turn",
+            "what guess did i use last turn",
+            "what guess did i try last turn",
+            "what code did i use last turn",
+            "what code did i try last turn",
+            "what did i use last turn",
+            "what did i try last turn"
+          ]
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        },
+        {
+          "name": "SettingsIntent",
+          "slots": [
+            {
+              "name": "nSlots",
+              "type": "nSlots",
+              "samples": [
+                "{nSlots}",
+                "{nSlots} slots"
+              ]
+            },
+            {
+              "name": "nColors",
+              "type": "nColors",
+              "samples": [
+                "{nColors}",
+                "{nColors} colors",
+                "use {nColors} colors"
+              ]
+            },
+            {
+              "name": "usesButtons",
+              "type": "usesButtons",
+              "samples": [
+                "{usesButtons}"
+              ]
+            }
+          ],
+          "samples": [
+            "begin a game with different options",
+            "begin a game with different settings",
+            "play a game with different options",
+            "play a game with different settings",
+            "start a game with different options",
+            "start a game with different settings",
+            "begin a different game",
+            "start a different game",
+            "play a different game",
+            "begin a new game",
+            "play a new game",
+            "start a new game",
+            "play a game with {nSlots} slots",
+            "play a game with {nSlots} slots and {nColors} colors",
+            "play a game with {usesButtons} and {nColors} colors",
+            "play a game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "play a game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "play a game with {nColors} colors",
+            "play a game with {nColors} colors and {usesButtons}",
+            "play a game with {nColors} colors and {nSlots} slots",
+            "play a game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "play a game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "play a game with {usesButtons}",
+            "play a game with {usesButtons} and {nSlots} slots",
+            "play a game with {nSlots} slots and {usesButtons}",
+            "play a game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "play a game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "play a game using {nSlots} slots",
+            "play a game using {nSlots} slots and {nColors} colors",
+            "play a game using {usesButtons} and {nColors} colors",
+            "play a game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "play a game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "play a game using {nColors} colors",
+            "play a game using {nColors} colors and {usesButtons}",
+            "play a game using {nColors} colors and {nSlots} slots",
+            "play a game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "play a game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "play a game using {usesButtons}",
+            "play a game using {usesButtons} and {nSlots} slots",
+            "play a game using {nSlots} slots and {usesButtons}",
+            "play a game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "play a game using {nSlots} slots {usesButtons} and {nColors} colors",
+            "play a new game with {nSlots} slots",
+            "play a new game with {nSlots} slots and {nColors} colors",
+            "play a new game with {usesButtons} and {nColors} colors",
+            "play a new game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "play a new game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "play a new game with {nColors} colors",
+            "play a new game with {nColors} colors and {usesButtons}",
+            "play a new game with {nColors} colors and {nSlots} slots",
+            "play a new game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "play a new game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "play a new game with {usesButtons}",
+            "play a new game with {usesButtons} and {nSlots} slots",
+            "play a new game with {nSlots} slots and {usesButtons}",
+            "play a new game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "play a new game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "play a new game using {nSlots} slots",
+            "play a new game using {nSlots} slots and {nColors} colors",
+            "play a new game using {usesButtons} and {nColors} colors",
+            "play a new game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "play a new game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "play a new game using {nColors} colors",
+            "play a new game using {nColors} colors and {usesButtons}",
+            "play a new game using {nColors} colors and {nSlots} slots",
+            "play a new game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "play a new game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "play a new game using {usesButtons}",
+            "play a new game using {usesButtons} and {nSlots} slots",
+            "play a new game using {nSlots} slots and {usesButtons}",
+            "play a new game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "play a new game using {nSlots} slots {usesButtons} and {nColors} colors",
+            "start a game with {nSlots} slots",
+            "start a game with {nSlots} slots and {nColors} colors",
+            "start a game with {usesButtons} and {nColors} colors",
+            "start a game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "start a game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "start a game with {nColors} colors",
+            "start a game with {nColors} colors and {usesButtons}",
+            "start a game with {nColors} colors and {nSlots} slots",
+            "start a game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "start a game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "start a game with {usesButtons}",
+            "start a game with {usesButtons} and {nSlots} slots",
+            "start a game with {nSlots} slots and {usesButtons}",
+            "start a game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "start a game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "start a game using {nSlots} slots",
+            "start a game using {nSlots} slots and {nColors} colors",
+            "start a game using {usesButtons} and {nColors} colors",
+            "start a game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "start a game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "start a game using {nColors} colors",
+            "start a game using {nColors} colors and {usesButtons}",
+            "start a game using {nColors} colors and {nSlots} slots",
+            "start a game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "start a game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "start a game using {usesButtons}",
+            "start a game using {usesButtons} and {nSlots} slots",
+            "start a game using {nSlots} slots and {usesButtons}",
+            "start a game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "start a game using {nSlots} slots {usesButtons} and {nColors} colors",
+            "start a new game with {nSlots} slots",
+            "start a new game with {nSlots} slots and {nColors} colors",
+            "start a new game with {usesButtons} and {nColors} colors",
+            "start a new game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "start a new game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "start a new game with {nColors} colors",
+            "start a new game with {nColors} colors and {usesButtons}",
+            "start a new game with {nColors} colors and {nSlots} slots",
+            "start a new game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "start a new game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "start a new game with {usesButtons}",
+            "start a new game with {usesButtons} and {nSlots} slots",
+            "start a new game with {nSlots} slots and {usesButtons}",
+            "start a new game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "start a new game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "start a new game using {nSlots} slots",
+            "start a new game using {nSlots} slots and {nColors} colors",
+            "start a new game using {usesButtons} and {nColors} colors",
+            "start a new game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "start a new game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "start a new game using {nColors} colors",
+            "start a new game using {nColors} colors and {usesButtons}",
+            "start a new game using {nColors} colors and {nSlots} slots",
+            "start a new game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "start a new game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "start a new game using {usesButtons}",
+            "start a new game using {usesButtons} and {nSlots} slots",
+            "start a new game using {nSlots} slots and {usesButtons}",
+            "start a new game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "start a new game using {nSlots} slots {usesButtons} and {nColors} colors",
+            "begin a game with {nSlots} slots",
+            "begin a game with {nSlots} slots and {nColors} colors",
+            "begin a game with {usesButtons} and {nColors} colors",
+            "begin a game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "begin a game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "begin a game with {nColors} colors",
+            "begin a game with {nColors} colors and {usesButtons}",
+            "begin a game with {nColors} colors and {nSlots} slots",
+            "begin a game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "begin a game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "begin a game with {usesButtons}",
+            "begin a game with {usesButtons} and {nSlots} slots",
+            "begin a game with {nSlots} slots and {usesButtons}",
+            "begin a game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "begin a game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "begin a game using {nSlots} slots",
+            "begin a game using {nSlots} slots and {nColors} colors",
+            "begin a game using {usesButtons} and {nColors} colors",
+            "begin a game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "begin a game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "begin a game using {nColors} colors",
+            "begin a game using {nColors} colors and {usesButtons}",
+            "begin a game using {nColors} colors and {nSlots} slots",
+            "begin a game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "begin a game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "begin a game using {usesButtons}",
+            "begin a game using {usesButtons} and {nSlots} slots",
+            "begin a game using {nSlots} slots and {usesButtons}",
+            "begin a game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "begin a game using {nSlots} slots {usesButtons} and {nColors} colors",
+            "begin a new game with {nSlots} slots",
+            "begin a new game with {nSlots} slots and {nColors} colors",
+            "begin a new game with {usesButtons} and {nColors} colors",
+            "begin a new game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "begin a new game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "begin a new game with {nColors} colors",
+            "begin a new game with {nColors} colors and {usesButtons}",
+            "begin a new game with {nColors} colors and {nSlots} slots",
+            "begin a new game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "begin a new game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "begin a new game with {usesButtons}",
+            "begin a new game with {usesButtons} and {nSlots} slots",
+            "begin a new game with {nSlots} slots and {usesButtons}",
+            "begin a new game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "begin a new game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "begin a new game using {nSlots} slots",
+            "begin a new game using {nSlots} slots and {nColors} colors",
+            "begin a new game using {usesButtons} and {nColors} colors",
+            "begin a new game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "begin a new game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "begin a new game using {nColors} colors",
+            "begin a new game using {nColors} colors and {usesButtons}",
+            "begin a new game using {nColors} colors and {nSlots} slots",
+            "begin a new game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "begin a new game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "begin a new game using {usesButtons}",
+            "begin a new game using {usesButtons} and {nSlots} slots",
+            "begin a new game using {nSlots} slots and {usesButtons}",
+            "begin a new game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "begin a new game using {nSlots} slots {usesButtons} and {nColors} colors",
+            "initiate a game with {nSlots} slots",
+            "initiate a game with {nSlots} slots and {nColors} colors",
+            "initiate a game with {usesButtons} and {nColors} colors",
+            "initiate a game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "initiate a game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "initiate a game with {nColors} colors",
+            "initiate a game with {nColors} colors and {usesButtons}",
+            "initiate a game with {nColors} colors and {nSlots} slots",
+            "initiate a game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "initiate a game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "initiate a game with {usesButtons}",
+            "initiate a game with {usesButtons} and {nSlots} slots",
+            "initiate a game with {nSlots} slots and {usesButtons}",
+            "initiate a game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "initiate a game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "initiate a game using {nSlots} slots",
+            "initiate a game using {nSlots} slots and {nColors} colors",
+            "initiate a game using {usesButtons} and {nColors} colors",
+            "initiate a game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "initiate a game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "initiate a game using {nColors} colors",
+            "initiate a game using {nColors} colors and {usesButtons}",
+            "initiate a game using {nColors} colors and {nSlots} slots",
+            "initiate a game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "initiate a game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "initiate a game using {usesButtons}",
+            "initiate a game using {usesButtons} and {nSlots} slots",
+            "initiate a game using {nSlots} slots and {usesButtons}",
+            "initiate a game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "initiate a game using {nSlots} slots {usesButtons} and {nColors} colors",
+            "initiate a new game with {nSlots} slots",
+            "initiate a new game with {nSlots} slots and {nColors} colors",
+            "initiate a new game with {usesButtons} and {nColors} colors",
+            "initiate a new game with {nSlots} slots {nColors} colors and {usesButtons}",
+            "initiate a new game with {usesButtons} {nColors} colors and {nSlots} slots",
+            "initiate a new game with {nColors} colors",
+            "initiate a new game with {nColors} colors and {usesButtons}",
+            "initiate a new game with {nColors} colors and {nSlots} slots",
+            "initiate a new game with {nColors} colors {usesButtons} and {nSlots} slots",
+            "initiate a new game with {nColors} colors {nSlots} slots and {usesButtons}",
+            "initiate a new game with {usesButtons}",
+            "initiate a new game with {usesButtons} and {nSlots} slots",
+            "initiate a new game with {nSlots} slots and {usesButtons}",
+            "initiate a new game with {usesButtons} {nSlots} slots and {nColors} colors",
+            "initiate a new game with {nSlots} slots {usesButtons} and {nColors} colors",
+            "initiate a new game using {nSlots} slots",
+            "initiate a new game using {nSlots} slots and {nColors} colors",
+            "initiate a new game using {usesButtons} and {nColors} colors",
+            "initiate a new game using {nSlots} slots {nColors} colors and {usesButtons}",
+            "initiate a new game using {usesButtons} {nColors} colors and {nSlots} slots",
+            "initiate a new game using {nColors} colors",
+            "initiate a new game using {nColors} colors and {usesButtons}",
+            "initiate a new game using {nColors} colors and {nSlots} slots",
+            "initiate a new game using {nColors} colors {usesButtons} and {nSlots} slots",
+            "initiate a new game using {nColors} colors {nSlots} slots and {usesButtons}",
+            "initiate a new game using {usesButtons}",
+            "initiate a new game using {usesButtons} and {nSlots} slots",
+            "initiate a new game using {nSlots} slots and {usesButtons}",
+            "initiate a new game using {usesButtons} {nSlots} slots and {nColors} colors",
+            "initiate a new game using {nSlots} slots {usesButtons} and {nColors} colors"
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": [
+            "begin another game",
+            "play another game",
+            "start another game"
+          ]
+        },
+        {
+          "name": "GuessIntent",
+          "slots": [
+            {
+              "name": "color_one",
+              "type": "colors"
+            },
+            {
+              "name": "color_two",
+              "type": "colors"
+            },
+            {
+              "name": "color_three",
+              "type": "colors"
+            },
+            {
+              "name": "color_four",
+              "type": "colors"
+            }
+          ],
+          "samples": [
+            "try {color_one} {color_two} {color_three} {color_four}",
+            "try {color_one} {color_two} {color_three}",
+            "try {color_one} {color_two}",
+            "try {color_one} {color_two} {color_three} and {color_four}",
+            "try {color_one} {color_two} and {color_three}",
+            "try {color_one} and {color_two}",
+            "try {color_one}",
+            "{color_one} {color_two} {color_three} {color_four}",
+            "{color_one} {color_two} {color_three}",
+            "{color_one} {color_two}",
+            "{color_one} {color_two} {color_three} and {color_four}",
+            "{color_one} {color_two} and {color_three}",
+            "{color_one} and {color_two}",
+            "{color_one}"
+          ]
+        },
+        {
+          "name": "SubmitIntent",
+          "samples": [
+            "does this code work",
+            "is this code right",
+            "tell me if this code is correct",
+            "let's try this code",
+            "how about this code",
+            "is this code correct",
+            "submit this code",
+            "try this code",
+            "check this code",
+            "does this work",
+            "is this right",
+            "tell me if this is correct",
+            "let's try this",
+            "how about this",
+            "is this correct",
+            "try it",
+            "do it",
+            "go",
+            "submit",
+            "try this",
+            "check this",
+            "guess"
+          ]
+        },
+        {
+          "name": "PastTurnIntent",
+          "slots": [
+            {
+              "name": "turnNum",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "what code did I try on turn {turnNum}",
+            "what did I try on turn {turnNum}",
+            "what code did I use on turn {turnNum}",
+            "what did I use turn {turnNum}",
+            "what code did I guess on turn {turnNum}",
+            "what did I guess on turn {turnNum}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "PreviousAllIntent",
+          "samples": [
+            "what did I guess earlier",
+            "tell me what I guessed earlier",
+            "say what I guessed earlier",
+            "say what I guessed",
+            "say what I guessed before",
+            "tell me what I guessed",
+            "tell me what I guessed before",
+            "what have I guessed before",
+            "what did I guess before",
+            "what codes have I guessed",
+            "what are all the codes I have guessed",
+            "tell me what I have guessed",
+            "tell me what I have tried",
+            "what are all my guesses",
+            "tell me all my guesses",
+            "tell me the codes I have tried",
+            "tell me all the codes I have tried",
+            "what are all the codes I have tried",
+            "what codes have I tried"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "voice",
+              "name": {
+                "value": "voice",
+                "synonyms": [
+                  "voice control",
+                  "with voice control",
+                  "with voice"
+                ]
+              }
+            },
+            {
+              "id": "buttons",
+              "name": {
+                "value": "buttons",
+                "synonyms": [
+                  "echo buttons",
+                  "with Echo buttons",
+                  "Echo buttons",
+                  "with buttons"
+                ]
+              }
+            }
+          ],
+          "name": "usesButtons"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "white"
+              }
+            },
+            {
+              "name": {
+                "value": "magenta"
+              }
+            },
+            {
+              "name": {
+                "value": "aqua"
+              }
+            },
+            {
+              "name": {
+                "value": "purple"
+              }
+            },
+            {
+              "name": {
+                "value": "blue"
+              }
+            },
+            {
+              "name": {
+                "value": "green"
+              }
+            },
+            {
+              "name": {
+                "value": "yellow"
+              }
+            },
+            {
+              "name": {
+                "value": "orange"
+              }
+            },
+            {
+              "name": {
+                "value": "red"
+              }
+            }
+          ],
+          "name": "colors"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "4",
+                "synonyms": [
+                  "four"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "3",
+                "synonyms": [
+                  "three"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "2",
+                "synonyms": [
+                  "two"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "1",
+                "synonyms": [
+                  "one"
+                ]
+              }
+            }
+          ],
+          "name": "nSlots"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "9"
+              }
+            },
+            {
+              "name": {
+                "value": "8"
+              }
+            },
+            {
+              "name": {
+                "value": "7"
+              }
+            },
+            {
+              "name": {
+                "value": "6"
+              }
+            },
+            {
+              "name": {
+                "value": "5"
+              }
+            },
+            {
+              "name": {
+                "value": "4"
+              }
+            },
+            {
+              "name": {
+                "value": "3"
+              }
+            },
+            {
+              "name": {
+                "value": "2"
+              }
+            }
+          ],
+          "name": "nColors"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "SettingsIntent",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "nSlots",
+              "type": "nSlots",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.495799961880.1067343746575"
+              }
+            },
+            {
+              "name": "nColors",
+              "type": "nColors",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.495799961880.1269942507933"
+              }
+            },
+            {
+              "name": "usesButtons",
+              "type": "usesButtons",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.495799961880.276672211204"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.495799961880.1269942507933",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "How many colors should we have, choose an integer between two and nine colors."
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.495799961880.276672211204",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Will you be using Echo buttons or voice control"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.495799961880.1067343746575",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "How many slots should we have, choose an integer between one and four"
+          }
+        ]
+      }
+    ]
+  }
+}

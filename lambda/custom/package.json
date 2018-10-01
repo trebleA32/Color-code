@@ -1,0 +1,21 @@
+{
+  "name": "color code",
+  "version": "2.0.0",
+  "description": "Guess the correct color sequence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "logic",
+    "game",
+    "buttons"
+  ],
+  "author": "TrebleA32",
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "dependencies": {
+    "ask-sdk": "^2.0.0"
+  }
+}

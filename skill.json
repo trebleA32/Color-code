@@ -1,0 +1,68 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Solve a quick puzzle by guessing the correct color code",
+          "examplePhrases": [
+            "Alexa open color code",
+            "start a new game",
+            "Alexa ask color code to start a new game"
+          ],
+          "keywords": [
+            "color",
+            "logic"
+          ],
+          "name": "Color Code",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4fa7/f2328a35eff148f3b0e8879bc6d1bb86/APP_ICON?versionId=YzdqKyKDiZicbJFjmBNTzKOaMCXBfkS0&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1538489745&Signature=WGdjJ%2B8PWRfjcIn2SOTM7KQqjos%3D",
+          "description": "This skill challenges you to find the correct color code is as few turns as you can.  After each guess you will be told how many colors are in the correct position and how many are in the incorrect positions, but not which ones are which.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6997/bf656701bfc046b9bb7c2874e9785f38/APP_ICON_LARGE?versionId=lvS2d7IOa8.JgCPVjd2NwdO0uk63GqL9&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1538489745&Signature=dT6q9TE%2BEe10piTCBVq%2BuZT1MUs%3D"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Echo buttons or standard voice control can be used to enter the color codes to play the game",
+      "category": "GAMES",
+      "distributionCountries": [
+        "CA",
+        "IE",
+        "US",
+        "GB",
+        "AU"
+      ],
+      "gadgetSupport": {
+        "maxGadgetButtons": 4,
+        "numPlayersMax": 1,
+        "minGadgetButtons": 1,
+        "requirement": "OPTIONAL",
+        "numPlayersMin": 1
+      }
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda\\custom"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE",
+            "minimumTemplateVersion": "1.0"
+          },
+          {
+            "type": "GAME_ENGINE"
+          },
+          {
+            "type": "GADGET_CONTROLLER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": true,
+      "usesPersonalInfo": false
+    }
+  }
+}
